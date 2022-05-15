@@ -4,5 +4,11 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"explorer.fileNesting.enabled": true,
+		"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+		"editor.guides.bracketPairs": "active",
+		"prettier.printWidth": 130,
+		"prettier.useTabs": true
+	}
 }
