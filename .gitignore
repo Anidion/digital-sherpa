@@ -108,3 +108,5 @@ dist
 
 #NPP .bak files
 .bak
+
+frontend/build/static
