@@ -22,7 +22,7 @@ export default function RaidSelector() {
 					<Button>Vault of Glass</Button>
 				</Grid>
 				<Grid item xs={1}>
-					<Button>Vow of the Disciple</Button>
+					<Button href="/vow">Vow of the Disciple</Button>
 				</Grid>
 			</Grid>
 		</Box>
