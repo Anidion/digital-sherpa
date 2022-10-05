@@ -6,6 +6,7 @@ import "./index.css";
 import TopBar from "./components/TopBar";
 import Main from "./pages/Main";
 import Vow from "./pages/Vow";
+import Rhulk from "./pages/Rhulk";
 
 const container = document.getElementById("root");
 
@@ -15,6 +16,7 @@ ReactDOM.render(
 		<Routes>
 			<Route path="/" element={<Main />} />
 			<Route path="/vow" element={<Vow />} />
+				<Route path="/vow/rhulk" element={<Rhulk />} />
 		</Routes>
 	</Router>
 
